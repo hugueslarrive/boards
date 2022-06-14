@@ -23,7 +23,7 @@
 void board_init(void)
 {
     /* initialize the CPU */
-    cpu_init();
+    //~ cpu_init();
 
     /* initialize the boards LEDs */
     gpio_init(LED0_PIN, GPIO_OUT);
